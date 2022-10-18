@@ -22,10 +22,11 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs12.x
-
-# you can overwrite defaults here
-#  stage: dev
+  runtime: nodejs16.x
+  stage: ${opt:stage, 'dev'}
+  timeout: 10
+  profile: building-serverless-nodejs
+  region: ap-northeast-2
 #  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
