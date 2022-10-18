@@ -14,5 +14,8 @@
   ],
   "author": "SeungBin Kim",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "serverless-offline": "^11.1.3"
+  }
 }
