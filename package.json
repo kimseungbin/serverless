@@ -1,0 +1,18 @@
+{
+  "name": "sample-aws-starter-project",
+  "version": "1.0.0",
+  "description": "Sample Serverless AWS App",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "serverless",
+    "nodejs",
+    "starter"
+  ],
+  "author": "SeungBin Kim",
+  "license": "ISC",
+  "type": "module"
+}
