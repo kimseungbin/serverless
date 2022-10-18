@@ -27,6 +27,9 @@ provider:
   timeout: 10
   profile: building-serverless-nodejs
   region: ap-northeast-2
+  environment:
+    ENV_TYPE: "${self:provider.stage}"
+    DB_URL: "${env:DB_URL}"
 #  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
